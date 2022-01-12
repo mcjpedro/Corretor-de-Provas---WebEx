@@ -5,6 +5,6 @@ This is my first interface made in Python. This program corrects tests of up to 
 This is what the interface looks like and unfortunately there is only the Portuguese version:
 ![image](https://user-images.githubusercontent.com/53011744/149068542-925614ae-7cdc-4dea-906e-f589932442bc.png)
 
-To download and install the program, just follow the standard steps to install the executable file "Setup CrWebEx v1.5.exe" (This version is only supported on Windows).
+To download and install the program, just follow the standard steps after execute the executable file "Setup CrWebEx v1.5.exe" (This version is only supported on Windows).
 
 The main code is all in the "codes" folder and despite not being fully commented, it is easy to understand, modificate and use.
