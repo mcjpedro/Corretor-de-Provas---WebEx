@@ -10,7 +10,4 @@ To download and install the program, send me an email and I will return the exec
 The main code is all in the "CrWebExv1.5.py" archive and despite not being fully commented, it is easy to understand, modificate and use.
 
 ## CONTACT
-Núcleo de Neurociências - NNC\
-Universidade Federal de Minas Gerais - UFMG\
 Author: João Pedro Carvalho Moreira (mcjpedro@gmail.com)\
-Advisor: Márcio Flávio Dutra Moraes (marcionnc@gmail.com)
