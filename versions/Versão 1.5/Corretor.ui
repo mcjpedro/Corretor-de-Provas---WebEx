@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Programa</class>
+ <widget class="QMainWindow" name="Programa">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Corretor Para Webex</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(238, 238, 238)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="cor">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>340</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(80, 126, 66)</string>
+    </property>
+    <property name="text">
+     <string>CORRIGIR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sair">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>410</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 125, 125)</string>
+    </property>
+    <property name="text">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="arq">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Arquivo</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="arqShow">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>461</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nmqLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>N° de Questões:</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Q1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="a_1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>301</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="qv_1">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label2_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>83</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Valor da Questão</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="b_1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="d_1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>405</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>d</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="e_1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>e</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="c_1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>371</x>
+       <y>20</y>
+       <width>28</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>c</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label3_1">
+     <property name="geometry">
+      <rect>
+       <x>171</x>
+       <y>20</y>
+       <width>119</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Alternativa(s) Correta(s)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Q2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="a_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>301</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label3_2">
+     <property name="geometry">
+      <rect>
+       <x>171</x>
+       <y>20</y>
+       <width>119</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Alternativa(s) Correta(s)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="b_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="d_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>405</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>d</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label2_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>83</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Valor da Questão</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="qv_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="c_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>371</x>
+       <y>20</y>
+       <width>28</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>c</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="e_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>e</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Q3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="a_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>301</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="qv_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label2_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>83</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Valor da Questão</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="c_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>371</x>
+       <y>20</y>
+       <width>28</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>c</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="e_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>e</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="b_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="d_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>405</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>d</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label3_3">
+     <property name="geometry">
+      <rect>
+       <x>171</x>
+       <y>20</y>
+       <width>119</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Alternativa(s) Correta(s)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Q4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>230</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="a_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>301</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label3_4">
+     <property name="geometry">
+      <rect>
+       <x>171</x>
+       <y>20</y>
+       <width>119</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Alternativa(s) Correta(s)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="qv_4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="e_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>e</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="c_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>371</x>
+       <y>20</y>
+       <width>28</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>c</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="b_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="d_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>405</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>d</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label2_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>83</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Valor da Questão</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Q5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>280</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="a_5">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>301</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label2_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>83</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Valor da Questão</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="qv_5">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="b_5">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>b</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="e_5">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>e</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="c_5">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>371</x>
+       <y>20</y>
+       <width>28</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>c</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="d_5">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>405</x>
+       <y>20</y>
+       <width>29</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>d</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="q1Label3_5">
+     <property name="geometry">
+      <rect>
+       <x>171</x>
+       <y>20</y>
+       <width>119</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Alternativa(s) Correta(s)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="q1Label1_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Questão 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q1Label1_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Questão 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q1Label1_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Questão 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q1Label1_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Questão 4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q1Label1_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Questão 5</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nmq">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="exibir">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>351</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="q_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="q_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="q_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="q_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="q_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(238, 238, 238)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="limpar">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>410</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Limpar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>341</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Desenvolvido por João Pedro C. Moreira (mcjpedro@gmail.com)</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
